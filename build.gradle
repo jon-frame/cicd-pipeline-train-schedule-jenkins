@@ -14,7 +14,7 @@ task build
 
 //set log level for npm_build task 
 //to suppress Jenkins failing because of npmSetupnpm WARN notice [SECURITY]
-npmInstall.args = ['--loglevel', 'silent']
+//npmInstall.args = ['--loglevel', 'silent']
 
 
 //declare a task to create a zip of the app
